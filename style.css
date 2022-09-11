@@ -118,3 +118,13 @@ body{
     font-weight: bolder;
     color: #FFFFFF;
 }
+
+@media(max-width:992px){
+    .cabecalho, .conteudo,.conteudo-principal, .conteudo-secundario, .rodape{
+        flex-direction: column;
+        text-align: center;
+    }
+    .conteudo-principal-imagem, .conteudo-secundario-imagem{
+        display: none;
+    }
+}
