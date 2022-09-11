@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 100%;
+    background-image: linear-gradient(120deg, #FFDD0F 0%, #FBB034 100%);
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-height: 125px;
+}
+
+.cabecalho-logo{
+    height: 250px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 30px;
+}
+
+.cabecalho-menu-item{
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.cabecalho-menu-item:hover{
+    color: #2E332F;
+    font-size: 20.5px;
+    transition: 1s;
+}
