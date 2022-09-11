@@ -71,3 +71,36 @@ body{
     align-items: center;
     flex-direction: row-reverse;
 }
+
+
+.conteudo-secundario-escrito-titulo{
+    font-size: 45px;
+    color: #FFFFFF;
+    padding-bottom:25px ;
+}
+
+.conteudo-secundario-escrito-paragrafo{
+    font-size: 20px;
+    color: #2E332F;
+    padding-bottom: 10px;
+}
+
+.conteudo-secundario-botao{
+    background-color: #FFFFFF;
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    margin-top:40px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.conteudo-secundario-botao:hover{
+    height:70px;
+    transition: 1s;
+}
+
+.conteudo-secundario-imagem{
+    height: 300px;
+}
