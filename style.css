@@ -38,3 +38,36 @@ body{
     font-size: 20.5px;
     transition: 1s;
 }
+
+.conteudo{
+    border-top: 0.5px solid #FFFFFF;
+    margin-bottom: 48px ;
+}
+
+.conteudo-principal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:150px 0;
+}
+
+.conteudo-principal-escrito-titulo{
+    color: #FFFFFF;
+    font-size: 60px
+}
+
+.conteudo-principal-escrito-subtitulo{
+    color: #2E332F;
+}
+
+
+.conteudo-principal-imagem{
+    height: 250px;
+}
+
+.conteudo-secundario{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
