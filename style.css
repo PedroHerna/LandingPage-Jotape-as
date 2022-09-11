@@ -70,6 +70,7 @@ body{
     justify-content: space-around;
     align-items: center;
     flex-direction: row-reverse;
+    margin-bottom: 100px;
 }
 
 
@@ -103,4 +104,17 @@ body{
 
 .conteudo-secundario-imagem{
     height: 300px;
+}
+
+.rodape{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 0.5px solid #FFFFFF;
+}
+
+.rodape-paragrafo{
+    font-weight: bolder;
+    color: #FFFFFF;
 }
